@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(to right, red, yellow);
+    margin-top: 20vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.task-writing{
+    display: flex;
+    text-align: flex-end;
+    justify-content: center;
+}
+.task-writing .btn{
+    height: 36px;
+    margin-top: 16px;
+    padding: auto;
+    background-color: blueviolet;
+}
+.card .list-group{
+   border:none;
+}
+.card .list-group .list-group-item{
+    margin-right: auto;
+    margin-left: auto;
+    width: 28vw;
+}
+
+.list-group-item .todo-icon #delete:hover{
+    transform:scale(1.2, 1.2) ;
+}
+.list-group-item .todo-icon #edit:hover{
+    transform:scale(1.2, 1.2) ;
+}
